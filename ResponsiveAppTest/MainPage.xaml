@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="ResponsiveAppTest.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ResponsiveAppTest"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel Padding="100" Spacing="50">
+        <ProgressBar Name="ProgressBar"></ProgressBar>
+        <Button Name="StartButton" Click="StartButton_Click" Width="70" Height="30"></Button>
+    </StackPanel>
+</Page>
